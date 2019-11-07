@@ -1,13 +1,13 @@
 package singtel;
 
 public class Bird extends Animal {
-	void fly() {
-		System.out.println("I am flying");
+	String fly() {
+		String action = "I am singing";
+		return action;
 	}
 
 	String sing() {
-		String singing = "I am singing";
-		System.out.println("I am singing");
-		return singing;
+		String action = "I am singing";
+		return action;
 	}
 }

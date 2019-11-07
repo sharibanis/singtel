@@ -4,13 +4,13 @@ public class Rooster extends Chicken {
 
 	@Override
 	String says() {
-		String saying = "Cock-a-doodle-doo";
-		System.out.println("Cock-a-doodle-doo");
-		return saying;
+		String action = "Cock-a-doodle-doo";
+		return action;
 	}
 	
 	@Override
-	void fly() {
-		System.out.println("I cannot fly");
+	String fly() {
+		String action = "I cannot fly";
+		return action;
 	}
 }

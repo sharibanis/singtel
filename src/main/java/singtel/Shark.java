@@ -4,25 +4,26 @@ class Shark extends Fish {
 	String size = "Large";
 	String colour= "Grey";
 	
-	void walk(){
-		System.out.println("I cannot walk");
+	String walk(){
+		String action = "I cannot walk";
+		return action;
 	}
 	
 	String sing() {
-		String singing = "I cannot sing";
+		String action = "I cannot sing";
 		System.out.println("I cannot sing");
-		return singing;
+		return action;
 	}
 	
 	String swim() {
-		String swimming = "I am swimming";
+		String action = "I am swimming";
 		System.out.println("I am swimming");
-		return swimming;
+		return action;
 	}
 
 	String eatOtherFish() {
-		String eat = "I eat other fish";
+		String action = "I eat other fish";
 		System.out.println("I eat other fish");
-		return eat;
+		return action;
 	}
 }

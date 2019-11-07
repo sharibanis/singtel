@@ -4,25 +4,23 @@ class Clownfish extends Fish {
 	String size = "Small";
 	String colour= "Orange";
 	
-	void walk(){
-		System.out.println("I cannot walk");
+	String walk(){
+		String action = "I cannot walk";
+		return action;
 	}
 	
 	String sing() {
-		String singing = "I cannot sing";
-		System.out.println("I cannot sing");
-		return singing;
+		String action = "I cannot sing";
+		return action;
 	}
 	
 	String swim() {
-		String swimming = "I am swimming";
-		System.out.println("I am swimming");
-		return swimming;
+		String action = "I am swimming";
+		return action;
 	}
 
 	String joke() {
-		String joke = "I can joke";
-		System.out.println("I can joke");
-		return joke;
+		String action = "I can joke";
+		return action;
 	}
 }
