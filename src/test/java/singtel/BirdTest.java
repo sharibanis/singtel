@@ -44,8 +44,32 @@ public class BirdTest {
 
 	@Test
 	public void roosterSays() {
-		String expected = "Cluck, cluck";
+		String expected = "Cock-a-doodle-doo";
 		assertEquals(expected, rooster.says());
+	}
+
+	ParrotLivingWithDogs parrotLivingWithDogs = new ParrotLivingWithDogs();
+
+	@Test
+	public void parrotLivingWithDogs() {
+		String expected = "Woof, woof";
+		assertEquals(expected, parrotLivingWithDogs.says());
+	}
+
+	ParrotLivingWithCats parrotLivingWithCats = new ParrotLivingWithCats();
+
+	@Test
+	public void parrotLivingWithCats() {
+		String expected = "Meow";
+		assertEquals(expected, parrotLivingWithCats.says());
+	}
+
+	ParrotLivingWithRooster parrotLivingWithRooster = new ParrotLivingWithRooster();
+
+	@Test
+	public void parrotLivingWithRooster() {
+		String expected = "Cock-a-doodle-doo";
+		assertEquals(expected, parrotLivingWithRooster.says());
 	}
 
 	
