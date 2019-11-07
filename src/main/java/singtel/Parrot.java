@@ -1,8 +1,8 @@
 package singtel;
 
 public class Parrot extends Bird {
-	String says() {
-		String action = "Cluck, cluck";
+	String sing() {
+		String action = "I am singing";
 		return action;
 	}
 }
