@@ -17,5 +17,7 @@ Q3c. We can use Chicken as an Interface and Rooster will implement this interfac
 
 Q4d. We will have to create extra classes
 
+The RESTful API is in the AppRestController.java class.
 
+It can be accessed on the http://localhost:8080/animalSays endpoint.
 
