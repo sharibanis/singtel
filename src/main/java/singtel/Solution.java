@@ -1,5 +1,9 @@
 package singtel;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Solution {
 
 	public static void main(String[] args) {
@@ -44,6 +48,6 @@ public class Solution {
 		System.out.println(numWalk + " animals can walk");
 		System.out.println(numSing + " animals can sing");
 		System.out.println(numSwim + " animals can swim");
-		
+		SpringApplication.run(Solution.class, args);
 	}
 }
