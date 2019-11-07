@@ -8,6 +8,11 @@ public class Rooster extends Chicken {
 		return action;
 	}
 	
+	String saysInMyLang() {
+		String action = "kuklooku";
+		return action;
+	}
+
 	@Override
 	String fly() {
 		String action = "I cannot fly";
